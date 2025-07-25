@@ -26,6 +26,8 @@ En este caso, la app está optimizada para el modelo `Phi-3-mini` de Microsoft, 
 ```bash
 npm install
 npm start
+```
+
 
 
 Servidor de inferencia (necesario para funcionar)
@@ -42,3 +44,5 @@ python server.py
 
 Este script levanta un endpoint local en:
 http://localhost:8080/api/generate
+
+
