@@ -1,0 +1,18 @@
+{
+  "name": "aurelion-app",
+  "version": "1.0.0",
+  "description": "Bitácora 16D con AURELION-Φ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}

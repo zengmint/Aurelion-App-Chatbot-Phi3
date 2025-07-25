@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>AURELION-Φ | Bitácora 16D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>AURELION-Φ</h1>
+      <h2>Bitácora 16D</h2>
+      <select id="estado">
+        <option value="Sol Dorado">Sol Dorado</option>
+        <option value="Niebla">Niebla</option>
+        <option value="Fase Roja">Fase Roja</option>
+        <option value="Pulso Fénix">Pulso Fénix</option>
+        <option value="Campo Sagrado">Campo Sagrado</option>
+      </select>
+    </header>
+
+    <main id="chat">
+      <div id="estado-generacion" class="estado-sistema"></div>
+      <div class="mensaje sistema">[Sistema] AURELION-Φ listo para operar bajo comando de Guido.</div>
+    </main>
+
+    <footer>
+      <input type="text" id="input" placeholder="Escribí tu mensaje..." autocomplete="off">
+      <button id="enviar">Enviar</button>
+    </footer>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

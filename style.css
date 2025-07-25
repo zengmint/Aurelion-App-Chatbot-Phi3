@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+header {
+  padding: 20px;
+  background-color: #262626;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #ffe066;
+}
+
+header h2 {
+  margin: 5px 0 10px;
+  font-size: 1em;
+  color: #ccc;
+}
+
+#estado {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+main#chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mensaje {
+  background-color: #2e2e2e;
+  padding: 10px 15px;
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.mensaje.guido {
+  align-self: flex-end;
+  background-color: #4d4dff;
+}
+
+.mensaje.aurelion {
+  align-self: flex-start;
+  background-color: #44bba4;
+}
+
+.mensaje.sistema {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  background: transparent;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  background-color: #262626;
+  border-top: 2px solid #333;
+}
+
+#input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#enviar {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffe066;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#enviar:hover {
+  background-color: #ffcc00;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.estado-sistema {
+  text-align: center;
+  font-style: italic;
+  color: #aaa;
+  padding: 5px 0;
+}
