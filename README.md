@@ -36,12 +36,15 @@ Esta app se comunica con un servidor Python local que utiliza la librería llama
 Pasos para levantar el backend...
 
 Instalá los requisitos en un entorno virtual (necesitas vs build tools para compilar):
+```bash
 pip install llama-cpp-python flask
+```
 Asegurate de tener el modelo .gguf descargado localmente (por ejemplo: phi-3-mini-4k-instruct.Q4_K_M.gguf).
 
 Ejecutá el servidor:
+```bash
 python server.py
-
+```
 Este script levanta un endpoint local en:
 http://localhost:8080/api/generate
 
