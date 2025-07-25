@@ -49,3 +49,4 @@ Este script levanta un endpoint local en:
 http://localhost:8080/api/generate
 
 
+<img width="683" height="767" alt="Aurelion-APP" src="https://github.com/user-attachments/assets/0741e4d0-4364-45f7-94cd-8fa1c7e41798" />
