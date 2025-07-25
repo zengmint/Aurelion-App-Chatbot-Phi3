@@ -1,6 +1,7 @@
 registro_conversacion_20250628_082253
 registro_conversacion_20250628_082253__
 renderer-para-mongodb(implementar)
-/node_modulesregistro-conv/*.json
+/node_modules
+registro-conv/*.json
 registro-conv/*.txt
 renderer-para-mongodb(implementar).js
