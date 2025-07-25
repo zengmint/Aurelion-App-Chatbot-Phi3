@@ -26,3 +26,19 @@ En este caso, la app está optimizada para el modelo `Phi-3-mini` de Microsoft, 
 ```bash
 npm install
 npm start
+
+
+Servidor de inferencia (necesario para funcionar)
+Esta app se comunica con un servidor Python local que utiliza la librería llama-cpp-python para hacer inferencia sobre un modelo descargado en formato .gguf.
+
+Pasos para levantar el backend...
+
+Instalá los requisitos en un entorno virtual (necesitas vs build tools para compilar):
+pip install llama-cpp-python flask
+Asegurate de tener el modelo .gguf descargado localmente (por ejemplo: phi-3-mini-4k-instruct.Q4_K_M.gguf).
+
+Ejecutá el servidor:
+python server.py
+
+Este script levanta un endpoint local en:
+http://localhost:8080/api/generate
